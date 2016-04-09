@@ -1,0 +1,12 @@
+<html>
+	<h1><p>hejka, to moja strona</p></h1>
+	<p>{% for posts in post %}
+    	<div>
+        <p>published: {{ posts.published_date }}</p>
+        <h1><a href="">{{ posts.title }}</a></h1>
+        <p>{{ posts.text|linebreaks }}</p>
+        </div>
+	{% endfor %}</p>
+	<p>a to wlasnie jej kolejna linia</p>
+<html>
+
