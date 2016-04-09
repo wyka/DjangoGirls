@@ -22,4 +22,4 @@ class Post(models.Model):
         self.save()
 
     def __str__(self):
-        return self.published_date
+        return self.title

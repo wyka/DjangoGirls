@@ -1,3 +1,5 @@
+*.pyc
+*.py~
 db.sqlite3
 testowy.py
 testowy.py.bak
